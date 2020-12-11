@@ -1,5 +1,7 @@
 .container {
   display: flex; /* or inline-flex */
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
@@ -9,4 +11,13 @@ a{
 
 body{
   font-family: 'Roboto', sans-serif;
+  margin: 5% 25%;
+}
+
+link{
+  color: blue;
+}
+
+div{
+  margin-top:5%;
 }
